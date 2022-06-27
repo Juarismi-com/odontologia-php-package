@@ -1,0 +1,29 @@
+{
+    "name": "juarismi/odontologia",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iván Fretes",
+            "email": "vanfretes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Juarismi\\Odontologia\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "juarismi/base": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Juarismi\\Odontologia\\OdontologiaServiceProvider"
+            ]
+        }
+    }
+}
