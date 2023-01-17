@@ -1,6 +1,7 @@
 {
     "name": "juarismi/odontologia",
     "license": "MIT",
+    "type":"library",
     "authors": [
         {
             "name": "Iván Fretes",
